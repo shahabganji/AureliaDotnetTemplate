@@ -7,7 +7,9 @@ import "font-awesome/css/font-awesome.css";
 declare const IS_DEV_BUILD: boolean; // The value is supplied by Webpack during the build
 
 export function configure(aurelia: Aurelia) {
-	aurelia.use.standardConfiguration();
+	aurelia.use.standardConfiguration()
+		.plugin(PLATFORM.moduleName("aurelia-toolbelt"))
+	;
 
 	if (IS_DEV_BUILD) {
 		aurelia.use.developmentLogging();
