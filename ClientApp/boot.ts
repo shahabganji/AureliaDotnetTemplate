@@ -4,6 +4,9 @@ import { HttpClient } from "aurelia-fetch-client";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap";
 import "font-awesome/css/font-awesome.css";
+
+import "toastr/build/toastr.css";
+
 declare const IS_DEV_BUILD: boolean; // The value is supplied by Webpack during the build
 
 export function configure(aurelia: Aurelia) {

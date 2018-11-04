@@ -8,6 +8,7 @@
 		"webpack:prod": "webpack --mode production"
 	},
 	"devDependencies": {
+		"@types/toastr": "^2.1.35",
 		"aspnet-webpack": "^3.0.0",
 		"aurelia-binding": "^2.1.4",
 		"aurelia-bootstrapper": "^2.3.0",
